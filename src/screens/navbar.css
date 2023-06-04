@@ -1,0 +1,13 @@
+.navbar_list {
+    list-style:none;
+    display:flex;
+    align-content:flex-end;
+    background-color:#eeeeee;
+    color:white;
+    padding:5px;
+}
+
+.navbar_button {
+    padding:13px;
+/*    margin:30px;*/
+}

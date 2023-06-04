@@ -1,0 +1,85 @@
+.bigboss {
+    display: flex;
+    flex-direction:column;
+    width:97%;
+    justify-content:center;
+    margin:auto;
+}
+
+.bbchild {
+    margin:auto;
+    justify-content:center;
+    width:98%;
+}
+
+@media only screen and (min-width: 700px) {
+    .cards {
+        box-shadow: 1px 3px 1px 3px #eeeeee;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .cards:hover {
+        box-shadow: 3px 6px 3px 6px #eeeeee;
+    }
+
+    .card {
+        width: 27%;
+        align-content: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom:50px;
+        justify-content:space-between;
+    }
+    .card:hover {
+        box-shadow: 3px 6px 3px 6px #eeeeee;
+    }
+    .resume {
+        margin: auto;
+        justify-content:center;
+        height: 1000px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .cards {
+        padding: 5px;
+        box-shadow: 1px 1px 1px 1px #eeeeee;
+        border-color: black;
+        margin-top: 50px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .card {
+        align-content: center;
+        text-align: center;
+    }
+
+    .card:hover {
+        box-shadow: 3px 6px 3px 6px #eeeeee;
+    }
+    .resume {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+.logo {
+    width: 80%
+}
+
+.logo:hover {
+    width: 81%;
+}
+
+.card {
+    border-radius:10px;
+}
+
+.textinabox {
+    margin: auto;
+}   

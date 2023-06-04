@@ -1,0 +1,16 @@
+.lnkdprjct_list {
+    list-style:none;
+}
+
+.content {
+    text-emphasis:none;
+    margin:10px;
+    font-family:mulish;
+}
+
+.appname {
+    font-family:mulish;
+    font-weight:bold;
+    font-size:24px;
+}
+
